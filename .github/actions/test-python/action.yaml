@@ -22,7 +22,7 @@ runs:
       run: pipx install nox
       shell: bash
     - name: Cache Nox
-      uses: actions/cache@v3
+      uses: actions/cache@v6
       with:
         path: .nox
         key: nox-${{ hashFiles('prql-python/noxfile.py') }}-${{ hashFiles('prql-python/requirements.txt') }}
