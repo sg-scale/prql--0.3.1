@@ -49,7 +49,7 @@ jobs:
           cache: "npm"
           cache-dependency-path: playground/package-lock.json
 
-      - uses: arduino/setup-task@v1
+      - uses: arduino/setup-task@v3
       - name: 🕷️ Build website
         run: task build-web
 
