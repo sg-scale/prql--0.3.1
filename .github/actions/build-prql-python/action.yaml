@@ -22,7 +22,7 @@ runs:
         command: build
         args: --release -o dist --universal2 -m prql-python/Cargo.toml
     - name: Upload wheels
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v7
       with:
         name: wheels
         path: dist
