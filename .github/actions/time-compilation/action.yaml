@@ -25,7 +25,7 @@ runs:
       shell: bash
       run: rm -rf target/cargo-timings
     - name: 🏭 Compile
-      uses: richb-hanover/cargo@v1.1.0
+      uses: richb-hanover/cargo@1.1.1
       with:
         command: build
         args: --timings=html --all-targets -Z unstable-options
