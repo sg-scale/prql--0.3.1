@@ -16,7 +16,7 @@ pyo3 = {version = "0.17.0", features = ["abi3-py37"]}
 prql-compiler = {path = "../prql-compiler"}
 
 [build-dependencies]
-pyo3-build-config = "0.17.0"
+pyo3-build-config = "0.30.1"
 
 [package.metadata.release]
 shared-version = true
